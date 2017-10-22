@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,p,span,dl,dt,dd,img,table,thead,th,td{
+	margin:0;
+	padding:0;
+	font-weight:400;
+	font-family:Microsoft Yahei,"宋体",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#333;
+}
+ul,li,ol{
+	list-style:none;
+}
+span,img{
+	display:block;
+}
+img{
+	border:none 0;
+}
+.slider{
+	clear:both;
+	margin:5px auto;
+	width:690px;
+	height:200px;
+	position:relative;
+	/*border:1px solid #369;*/
+}
+#slider li{
+	width:90px;
+	float:left;
+	margin-right:2px;
+	overflow:hidden;
+}
+#slider li.cur{
+	width:320px;
+}
